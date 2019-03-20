@@ -23,7 +23,7 @@ const ctxImpl = new CLSContext();
 const localServiceName = 'service-a';
 const recorder = new BatchRecorder({
   logger: new HttpLogger({
-    endpoint: 'http://192.168.27.28:9411/api/v2/spans',
+    endpoint: 'http://host:9411/api/v2/spans',
     jsonEncoder: JSON_V2
   })
 })
